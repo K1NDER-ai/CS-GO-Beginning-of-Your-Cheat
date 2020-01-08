@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Hook\MinHook\src\buffer.c">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\hook.c">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\trampoline.c">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\HDE\hde32.c">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\HDE\hde64.c">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cFunction.h" />
+    <ClInclude Include="cInclude.h" />
+    <ClInclude Include="Impl.h" />
+    <ClInclude Include="Hook\hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\include\MinHook.h">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\buffer.h">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\trampoline.h">
+      <Filter>Hook\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\hde32.h">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\hde64.h">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\table32.h">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\table64.h">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\pstdint.h">
+      <Filter>Hook\MinHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{a7b09abf-324a-4966-aca1-cb2d793cd118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\MinHook">
+      <UniqueIdentifier>{5b806074-8cc8-4c3c-a0d0-de6c2f09236e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\MinHook\include">
+      <UniqueIdentifier>{e99674b8-b84b-4524-abcc-85230c96ea9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\MinHook\src">
+      <UniqueIdentifier>{82324ed7-ca0b-49c6-bf39-51af2b0e3d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\MinHook\src\HDE">
+      <UniqueIdentifier>{1aefbbc6-94f3-43ef-921a-6b5d62329d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{0f8b29de-b5b2-4cd3-a3fa-3b41eccf978a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{259ea704-cdd8-4eb1-9716-626320815056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\src">
+      <UniqueIdentifier>{646ce054-730d-40c6-afef-2e0089967f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{9a0dfc65-04b7-4a9d-8c71-5ef772f81a48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hook\MinHook\src\buffer.c">
+      <Filter>Hook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\hook.c">
+      <Filter>Hook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\trampoline.c">
+      <Filter>Hook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\HDE\hde32.c">
+      <Filter>Hook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\MinHook\src\HDE\hde64.c">
+      <Filter>Hook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hook\MinHook\src\buffer.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\trampoline.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\hde32.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\hde64.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\pstdint.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\table32.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\src\HDE\table64.h">
+      <Filter>Hook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\MinHook\include\MinHook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="cInclude.h" />
+    <ClInclude Include="Impl.h" />
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="cFunction.h" />
+  </ItemGroup>
+</Project>
